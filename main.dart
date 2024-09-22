@@ -13,7 +13,6 @@ void main() {
   book3.read(110);
 
 
-  print('Total number of bookss created:'+Book.totalBooks.toString());
 
   print('Book 1 :');
   print('Titile:'+book1.getTitle());
@@ -37,6 +36,10 @@ void main() {
   print('Publication year:'+book3.getPublicationYear().toString());
   print('Read pages :' +book3.getPagesRead().toString());
   print('Book age :' +book3.getBookAge().toString());
+
+
+    print('Total number of bookss created:'+Book.totalBooks.toString());
+
 
 
 
