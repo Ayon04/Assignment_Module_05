@@ -13,10 +13,6 @@ void main() {
   book3.read(110);
 
 
-  /*print("${book1.title}  ${book1.author}, Published: ${book1.publicationYear}, Pages Read: ${book1.pagesRead}, Book Age: ${book1.getBookAge()} years");
-  print("${book2.title} by ${book2.author}, Published: ${book2.publicationYear}, Pages Read: ${book2.pagesRead}, Book Age: ${book2.getBookAge()} years");
-  print("${book3.title} by ${book3.author}, Published: ${book3.publicationYear}, Pages Read: ${book3.pagesRead}, Book Age: ${book3.getBookAge()} years");
-*/
   print('Total number of bookss created:'+Book.totalBooks.toString());
 
   print('Book 1 :');
